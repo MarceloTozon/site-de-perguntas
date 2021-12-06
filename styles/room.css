@@ -93,3 +93,38 @@
     padding: .8rem 2.4rem ;
     height: auto;
 }
+
+/******* Questions*******/
+.questions-wrapper{
+    background: var(--light-blue);
+    margin-bottom:  .8rem;
+    border-radius: 0 .8rem .8rem .8rem ;
+    padding: 2.4rem;
+}
+    
+    
+    .questions-wrapper .question-content{
+        display: flex;
+        align-items: center;
+        
+    }
+    
+    .questions-wrapper .question-content p{
+        margin-left: 1.6rem;
+    }
+    .questions-wrapper .actions{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.questions-wrapper .actions > a{
+    display: flex;
+    align-items: center;
+    
+}
+.questions-wrapper .actions > a > img{
+    margin-right: .8rem;
+}
+.questions-wrapper .actions > a:nth-child(2){
+    margin-left: 2.4rem;
+}
