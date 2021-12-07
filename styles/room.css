@@ -105,13 +105,24 @@
     
     .questions-wrapper .question-content{
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         
+    }
+    .questions-wrapper .question-content .user{
+        background: var(--blue);
+        clip-path: circle();
+        padding: 1.4rem;
+
     }
     
     .questions-wrapper .question-content p{
         margin-left: 1.6rem;
+        word-break: break-word;
+        display: flex;
+        align-items: center;
+        min-height: 5.3rem;
     }
+
     .questions-wrapper .actions{
     display: flex;
     align-items: center;
@@ -127,4 +138,14 @@
 }
 .questions-wrapper .actions > a:nth-child(2){
     margin-left: 2.4rem;
+}
+
+/*** Question read***/
+
+.questions-wrapper.read{
+    background: var(--grey-medium);
+
+}
+.questions-wrapper.read .question-content .user{
+    background: var(--grey-blue);
 }
